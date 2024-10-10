@@ -1,0 +1,204 @@
+.hit__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.hit__img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.hit__title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.hit__badge {
+  background-color: #ff5722;
+  color: #fff;
+  font-size: 12px;
+  padding: 5px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.hit__img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.hit__img1 {
+  max-width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.hit__content {
+  padding: 20px;
+}
+
+.hit__name {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.hit__price {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.hit__price-new {
+  font-weight: bold;
+  color: gold;
+}
+
+.hit__price-old {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.hit__rating {
+  color: green;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hit__card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: calc(20% - 10px);
+  margin: 10px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.hit__card1 {
+  margin-top: 50px;
+  max-width: 600px;
+  display: flex;
+}
+
+.hit__wrapper2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.hit__img1 {
+  max-width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.hit__card:hover {
+  transform: translateY(-5px);
+}
+
+.hit__buy-btn {
+  display: none;
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.hit__card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 10px;
+  text-align: center;
+  position: relative;
+  height: 400px;
+}
+
+.hit__content {
+  padding: 20px;
+}
+
+.hit__like-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  color: #999;
+  display: none;
+}
+
+.hit__buy-btn {
+  display: none;
+  width: 100%;
+  padding: 10px;
+  background-color: gold;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.hit__card:hover .hit__buy-btn,
+.hit__card:hover .hit__like-icon {
+  display: block;
+}
+
+.hit__like-icon:hover {
+  color: red;
+}
+
+.hit__banner {
+  display: flex;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.hitsimgs {
+  max-width: 600px;
+}
+
+.like-button {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.like-button:hover {
+  background-color: #f0f0f0;
+}
+
+
+
